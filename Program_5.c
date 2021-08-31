@@ -9,14 +9,14 @@
 
 int main()
 {
-    int a, b, temp;
-    scanf("%d%d", &a, &b);
-
-    //Write your code here
-    
-    
-
+    int a,b,temp;
+    printf("Enter the values of a and b for swapping");
+    scanf("%d %d",&a,&b);
+    printf("Values are %d and %d\n",a,b);
   
-    printf("%d %d\n", a, b);
-    return 0;
+    temp=a;
+    a=b;
+    b=temp;
+
+    printf("Swapped values are %d and %d",a,b);
 }
